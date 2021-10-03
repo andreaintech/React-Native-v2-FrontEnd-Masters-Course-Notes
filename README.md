@@ -49,3 +49,17 @@ As for social media, you can find me on [Twitter](https://twitter.com/kadikraman
 This is supplementary material for my [Frontend Masters course - React Native v2](https://frontendmasters.com/courses/react-native-v2/) using the [Gatsby template by Brian Holt](https://github.com/btholt/gatsby-course-starter). Not everyone has the money to pay for these courses which is why these materials are and will be forever open source for you to reference and share. Thank you to the kind folks at [Frontend Masters](https://frontendmasters.com/) who are encouraging teachers to compile and open source these course materials.
 
 ![image](https://user-images.githubusercontent.com/20091777/135774493-571e9e1b-a4ca-4570-9dcb-778d3a795c78.png)
+
+# About React Native
+
+![image](https://user-images.githubusercontent.com/20091777/135775309-eb6a12b2-fea2-40f0-ad97-48e36d5e78a4.png)
+
+Smartphones are really just small computers you can carry around in your pocket. Small, but powerful. An often cited comparison is that the average smartphone these days has a 1 million times more RAM and 7 million times more memory than the guidance computer for Apollo 11 that [landed the first humans on the moon!](https://www.realclearscience.com/articles/2019/07/02/your_mobile_phone_vs_apollo_11s_guidance_computer_111026.html)
+
+Due to their smaller screen and touch-based interface, browsing the web on a smartphone is still often a sub-optimal experience. Progressive Web Apps (PWAs) improve the experience somewhat, but nothing beats a good old native Mobile App designed from the ground up with mobile experience in mind.
+
+In 2020, the number of smartphone users in the world is 3.5 billion, which translates to 45.12% of the world's population owning a smartphone. Looking at the global market share for mobile phones we can see Android and iOS clearly in the lead.
+
+![image](https://user-images.githubusercontent.com/20091777/135775360-821ac882-ecbd-4b77-a381-7096f553216b.png)
+
+Note that this is the global stats and vary significantly per country. For instance, the market share for iOS was 57.3% in the US, 51.6% in the UK, but only 2.1% in India. As a result, which platform you focus most of your energy on should depend on your target audience. It is clear however that if you manage to cover both iOS and Android, you will cover 99% of your audience, no matter the country.
