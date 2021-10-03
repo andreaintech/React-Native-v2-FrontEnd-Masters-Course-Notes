@@ -81,8 +81,11 @@ It's easy to imagine the difficulties this can cause: you'll have to manage two 
 
 React Native is a platform developed by Facebook for solving this problem. Their goal was to build a platform that enables you to have:
 
-- Fully native apps (not webviews/PWAs)
-- One codebase
-- One development team
-- One language
-- Fully extensible (you should be anything that is possible without using React Native)
+- Fully native apps (not webviews/PWAs).
+- One codebase.
+- One development team.
+- One language.
+- Fully extensible (you should be anything that is possible without using React Native).
+
+![image](https://user-images.githubusercontent.com/20091777/135775518-917012ce-01bb-47c9-a6c2-7813ee9ff4a1.png)
+
