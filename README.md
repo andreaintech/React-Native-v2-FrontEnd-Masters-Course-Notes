@@ -42,3 +42,9 @@ There are a few different ways to set up your development environment, depending
 (writing by her) Hi, my name is Kadi and I am a Senior Software Engineer at [Formidable](https://formidable.com/) where I build things in JavaScript, mostly using React Native. I first got into coding in University where I studied Maths with Psychology. I had just the one programming course in second year of university, in C++. From the first time my program compiled and ran without errors, I was hooked! After that, I followed a long and winding road to end up where I am now, but suffice it to say I have been writing code professionally since 2013, using React since 2015 and React Native since 2017.
 
 As for social media, you can find me on [Twitter](https://twitter.com/kadikraman), [LinkedIn](https://www.linkedin.com/in/kadi-kraman-922a7277/) and [GitHub](https://github.com/kadikraman).
+
+## Why Was This Course Created
+
+This is supplementary material for my [Frontend Masters course - React Native v2](https://frontendmasters.com/courses/react-native-v2/) using the Gatsby template by Brian Holt. Not everyone has the money to pay for these courses which is why these materials are and will be forever open source for you to reference and share. Thank you to the kind folks at [Frontend Masters]() who are encouraging teachers to compile and open source these course materials.
+
+![image](https://user-images.githubusercontent.com/20091777/135774493-571e9e1b-a4ca-4570-9dcb-778d3a795c78.png)
