@@ -137,3 +137,5 @@ Expo restrictions only really come to play when you're doing advanced things wit
 In my experience, all the production apps I've working on have had to be ejected, even if they started with Expo. However it has been an invaluable tool for learning and quick prototyping. I always use Expo for in-person workshops primarily because it'd be a mighty boring workshop if we all spent 2+ hours just setting up our development environment, but also because I have been using a MacBook for the past 5 years and am not confident I can always help debug issues specific to Windows and Linux. For client projects, I have always used plain React Native, usually due to the client's preference.
 
 # [Expo] Getting started with Expo
+
+# [RN] Getting started with plain React Native
