@@ -135,3 +135,5 @@ It can take quite a bit time to set up your development environment without Expo
 Expo restrictions only really come to play when you're doing advanced things with React Native. In particular, if you need to make any native changes to your code. Basically if you need to install any libraries or add anything that changes any of the non-JavaScript code or configurations. You'll have to eject from the Expo safe space and start managing all your native code yourself as you would with plain React Native.
 
 In my experience, all the production apps I've working on have had to be ejected, even if they started with Expo. However it has been an invaluable tool for learning and quick prototyping. I always use Expo for in-person workshops primarily because it'd be a mighty boring workshop if we all spent 2+ hours just setting up our development environment, but also because I have been using a MacBook for the past 5 years and am not confident I can always help debug issues specific to Windows and Linux. For client projects, I have always used plain React Native, usually due to the client's preference.
+
+# [Expo] Getting started with Expo
