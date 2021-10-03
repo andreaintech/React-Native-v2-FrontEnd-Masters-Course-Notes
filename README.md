@@ -5,7 +5,8 @@ Building mobile applications
 
 ## Welcome
 
-Hi there, and welcome to React Native v2! 👋
+Hi there, and welcome to [React Native v2!](![image](https://user-images.githubusercontent.com/20091777/135774518-6a99ab5b-c3b5-4b94-9fbb-0a5317cefec6.png)
+) 👋
 
 ## Course Objective
 
