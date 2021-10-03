@@ -115,3 +115,19 @@ If you are completely new to mobile development and just want to get a taste of 
 You should also definitely go for Expo if you have a Windows or Linux machine, but you want to run the app on your physical iPhone. This is simply not possible with plain React Native, because native iOS apps can only be built on a macOS machine. Expo overcomes this be allowing you to install a native "shell" app on your phone and transfer the JavaScript bundle you're working on directly into this native shell. This way, you end up only writing JavaScript on locally, no native compilation step necessary.
 
 It can take quite a bit time to set up your development environment without Expo, since you'll have to download, install and configure XCode and/or Android Studio. Just to give you an idea of the setup time, here are some really rough estimates based on my experience:
+
+### macOS
+- Expo on physical device: ~10 minutes (Android or iOS).
+- Expo on iOS simulator: ~1 hour.
+- Expo on Android emulator: ~1.5 hours.
+- Plain React Native on physical device: ~2 hours (Android or iOS).
+- Plain React Native on iOS simulator: ~2 hours.
+- Plain React Native on Android emulator: ~2 hours.
+
+### Windows or Linux
+- Expo on physical device: ~20 minutes (Android or iOS).
+- Expo on iOS simulator: ❌
+- Expo on Android emulator: ~2 hours.
+- Plain React Native on physical device: ~2.5 hours (Android only).
+- Plain React Native on iOS simulator: ❌
+- Plain React Native on Android emulator: ~3 hours.
