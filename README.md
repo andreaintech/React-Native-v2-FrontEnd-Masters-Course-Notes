@@ -99,3 +99,7 @@ Without getting overly technical here, React Native is built in such a way that 
 
 1. Native compilers are designed for this, so we'll be no worse than non-React Native apps, and
 2. This makes the React Native framework extensible to other native platforms. React Native Windows? VR? Web? It could all be available from our one unified JavaScript API.
+
+![image](https://user-images.githubusercontent.com/20091777/135775704-e09e27bf-fa9a-491a-a969-073affb9f072.png)
+
+Source: https://hackernoon.com/understanding-react-native-bridge-concept-e9526066ddb8
