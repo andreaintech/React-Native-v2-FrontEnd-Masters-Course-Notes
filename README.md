@@ -103,3 +103,5 @@ Without getting overly technical here, React Native is built in such a way that 
 ![image](https://user-images.githubusercontent.com/20091777/135775704-e09e27bf-fa9a-491a-a969-073affb9f072.png)
 
 Source: https://hackernoon.com/understanding-react-native-bridge-concept-e9526066ddb8
+
+# Should you use Expo or plain React Native?
