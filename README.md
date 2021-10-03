@@ -89,3 +89,6 @@ React Native is a platform developed by Facebook for solving this problem. Their
 
 ![image](https://user-images.githubusercontent.com/20091777/135775518-917012ce-01bb-47c9-a6c2-7813ee9ff4a1.png)
 
+The language of choice ended up being JavaScript probably because React (the popular frontend framework also developed by Facebook) is a JavaScript framework, so it provides the smallest possible learning curve for folks already familiar with React.
+
+Note: React Native is not the only such framework, and it's not even the first, but where it differs from others is that a built React Native app is indistinguishable from a "real" native app. Unlike most of the other frameworks, it is not just a webview that look like a real app. The other really standout feature is that React Native apps are infinitely extensible: you are not constrained by the framework and you can always pure native code in your app if you want to do something the framework doesn't already enabled. Finally, if you're already familiar to React and web development, then the learning curve for React Native is really not that steep.
