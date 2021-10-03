@@ -46,6 +46,6 @@ As for social media, you can find me on [Twitter](https://twitter.com/kadikraman
 
 ## Why Was This Course Created
 
-This is supplementary material for my [Frontend Masters course - React Native v2](https://frontendmasters.com/courses/react-native-v2/) using the Gatsby template by Brian Holt. Not everyone has the money to pay for these courses which is why these materials are and will be forever open source for you to reference and share. Thank you to the kind folks at [Frontend Masters]() who are encouraging teachers to compile and open source these course materials.
+This is supplementary material for my [Frontend Masters course - React Native v2](https://frontendmasters.com/courses/react-native-v2/) using the Gatsby template by Brian Holt. Not everyone has the money to pay for these courses which is why these materials are and will be forever open source for you to reference and share. Thank you to the kind folks at [Frontend Masters](https://frontendmasters.com/) who are encouraging teachers to compile and open source these course materials.
 
 ![image](https://user-images.githubusercontent.com/20091777/135774493-571e9e1b-a4ca-4570-9dcb-778d3a795c78.png)
