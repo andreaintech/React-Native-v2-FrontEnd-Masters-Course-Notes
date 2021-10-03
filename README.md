@@ -36,3 +36,9 @@ You do not need to match my setup, but you should have:
 - either a physical device (iPhone or Android) OR a simulator/emulator installed.
 
 There are a few different ways to set up your development environment, depending on what hardware you have and whether you'd like to use vanilla React Native or Expo. Don't worry about making a decision right away, the next lesson will explain the pros and cons of all your options so you can make an informed decision on what is the best fit for you.
+
+## About Kadi
+
+(writing by her) Hi, my name is Kadi and I am a Senior Software Engineer at [Formidable](https://formidable.com/) where I build things in JavaScript, mostly using React Native. I first got into coding in University where I studied Maths with Psychology. I had just the one programming course in second year of university, in C++. From the first time my program compiled and ran without errors, I was hooked! After that, I followed a long and winding road to end up where I am now, but suffice it to say I have been writing code professionally since 2013, using React since 2015 and React Native since 2017.
+
+As for social media, you can find me on [Twitter](https://twitter.com/kadikraman), [LinkedIn](https://www.linkedin.com/in/kadi-kraman-922a7277/) and [GitHub](https://github.com/kadikraman).
