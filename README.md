@@ -63,3 +63,14 @@ In 2020, the number of smartphone users in the world is 3.5 billion, which trans
 ![image](https://user-images.githubusercontent.com/20091777/135775360-821ac882-ecbd-4b77-a381-7096f553216b.png)
 
 Note that this is the global stats and vary significantly per country. For instance, the market share for iOS was 57.3% in the US, 51.6% in the UK, but only 2.1% in India. As a result, which platform you focus most of your energy on should depend on your target audience. It is clear however that if you manage to cover both iOS and Android, you will cover 99% of your audience, no matter the country.
+
+Now, as phones are just tiny computers, they have an operating system, the same way your computer does.
+
+- Some examples of computers: MacBook, Dell, Lenovo
+- Some examples of operating systems: macOS, Windows, Linux
+- Some examples of phones: iPhone, Samsung Galaxy S20, Nexus 5X
+- Some examples of phone operating systems: iOS, Android
+
+Applications are designed to run on a particular operating system so you can't just take an iOS app and run it on Android and vice versa. App Store vs Google Play Store aside, the underlying architecture is incompatible.
+
+So in order to target 99% of smartphone users, we'll have to build two apps: one for Android and one for iOS.
