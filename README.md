@@ -75,12 +75,14 @@ Applications are designed to run on a particular operating system so you can't j
 
 So in order to target 99% of smartphone users, we'll have to build two apps: one for Android and one for iOS.
 
+![image](https://user-images.githubusercontent.com/20091777/135775475-dad0fb7e-817b-4a34-bd20-ae34c432566a.png)
+
 It's easy to imagine the difficulties this can cause: you'll have to manage two of everything: language, codebases, developer teams, feature sets, release schedules etc. Hiring two developer teams is expensive, and hiring a single team that has in depth knowledge of both Android and iOS is almost impossible.
 
 React Native is a platform developed by Facebook for solving this problem. Their goal was to build a platform that enables you to have:
 
-    fully native apps (not webviews/PWAs)
-    one codebase
-    one development team
-    one language
-    fully extensible (you should be anything that is possible without using React Native)
+- Fully native apps (not webviews/PWAs)
+- One codebase
+- One development team
+- One language
+- Fully extensible (you should be anything that is possible without using React Native)
