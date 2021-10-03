@@ -1,13 +1,13 @@
-# React-Native-v2-FrontEnd-Masters-Course-Notes
+# React Native v2 FrontEnd Masters Course Notes
 
 ## React Native v2
 Building mobile applications
 
-# Welcome
+## Welcome
 
 Hi there, and welcome to React Native v2! 👋
 
-# Course Objective
+## Course Objective
 
 Kadi builds React Native apps for a living and her main goal today is to give you an idea on how I do it - what are the best practices, conventions, do's and dont's.
 
