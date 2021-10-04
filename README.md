@@ -139,3 +139,5 @@ In my experience, all the production apps I've working on have had to be ejected
 # [Expo] Getting started with Expo
 
 # [RN] Getting started with plain React Native
+
+# Adding a linter
