@@ -143,3 +143,5 @@ In my experience, all the production apps I've working on have had to be ejected
 # Adding a linter
 
 # Debugging
+
+# Basic React Native components
