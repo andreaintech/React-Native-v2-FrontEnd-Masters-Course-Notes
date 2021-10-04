@@ -149,3 +149,5 @@ In my experience, all the production apps I've working on have had to be ejected
 # Styling
 
 # Styling Exercise Solution 👀
+
+# Components
