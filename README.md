@@ -332,6 +332,26 @@ Now we have eslint installed and configured. But how to actually run it? Open th
 "lint": "eslint ."
 ```
 
+Now you can run ```npm run lint``` or ```yarn lint``` in your terminal and the linter will report both eslint and prettier issues.
+
+#### Adding eslint - adding it to your code editor (step 4 of 4)
+
+It's all well and good to lint your code on the command line, but ideally you'd have instant feedback while you're writing your code. Thankfully most code editors have an integration option for this.
+
+#### VSCode
+Code => Preferences => Extentions => ESLint
+
+#### Atom
+
+Atom => Preferences => Install => linter-eslint
+
+You may have to close and reopen your code editor for the package to start working, but that's it! You now have the optimal working environment.
+
+
+🔗 [Expo c4463a28410a10b295fe76c9a273a7c3ae5dc76c](https://github.com/kadikraman/AwesomeProjectExpo/commit/c4463a28410a10b295fe76c9a273a7c3ae5dc76c)
+
+🔗 [RN 4822e123aa0e9d2892970a74065f2dc15ebec6e6](https://github.com/kadikraman/AwesomeProjectRN/commit/4822e123aa0e9d2892970a74065f2dc15ebec6e6)
+
 ### Debugging
 
 ## Basic components
