@@ -154,6 +154,18 @@ expo install react-native-gesture-handler react-native-reanimated react-native-s
 
 Finally, open ```App.js``` and add the following:
 
+```
+import { NavigationContainer } from '@react-navigation/native';
+
+const App = () => {
+  return (
+    <NavigationContainer>{/* Rest of the app code */}</NavigationContainer>
+  );
+};
+
+export default App;
+```
+
 ### [RN] Getting started with plain React Native
 
 ### Adding a linter
