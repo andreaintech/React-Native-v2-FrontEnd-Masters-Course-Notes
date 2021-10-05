@@ -1,5 +1,20 @@
 ## Setup 
 
+### [Expo] Getting started with Expo
+
+The fastest way to get started with React Native is to us Expo and run the app on your device. Feel free to use the React Native docs or Expo docs for reference.
+
+### You'll need:
+- A computer (Mac, Windows or Linux).
+- A smartphone (iPhone or Android).
+
+### Install Node
+
+First, make sure you have Node.js installed (12 or later). You can do this by opening a terminal and running ```node -v```. If not you can install it [here](https://nodejs.org/en/). There's usually two versions to choose from, pick the one that says LTS (Long Term Support) after the version number.
+
+
+
+
 
 ### Adding a linter
 
