@@ -146,6 +146,13 @@ If you're using Expo, you're in luck. This setup is not nearly as tricky as pure
 ```
 npm install @react-navigation/native
 ```
+and then all the expo-compatible dependencies:
+
+```
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```
+
+Finally, open ```App.js``` and add the following:
 
 ### [RN] Getting started with plain React Native
 
