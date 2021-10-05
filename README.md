@@ -4,7 +4,11 @@
 Building mobile applications
 
 ```
-Kadi is a Senior Software Engineer at Formidable where she builds things in JavaScript, mostly using React Native. She first got into coding in University where she studied Maths with Psychology. She had just the one programming course in second year of university, in C++. From the first time her program compiled and ran without errors, and she was hooked! After that, she followed a long and winding road to end up where she is now, but suffice it to say she has been writing code professionally since 2013, using React since 2015 and React Native since 2017.
+Kadi is a Senior Software Engineer at Formidable where she builds things in JavaScript, mostly using React Native. 
+She first got into coding in University where she studied Maths with Psychology. 
+She had just the one programming course in second year of university, in C++. 
+From the first time her program compiled and ran without errors, and she was hooked! 
+After that, she followed a long and winding road to end up where she is now, but suffice it to say she has been writing code professionally since 2013, using React since 2015 and React Native since 2017.
 
 For social media, you can find her on [Twitter](), [LinkedIn]() and [GitHub]().
 ```
