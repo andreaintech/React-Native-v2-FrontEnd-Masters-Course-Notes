@@ -105,8 +105,6 @@ Without getting overly technical here, React Native is built in such a way that 
 
 Source: https://hackernoon.com/understanding-react-native-bridge-concept-e9526066ddb8
 
-## Setup 
-
 ### Should you use Expo or plain React Native?
 
 If you've been eyeing up the React Native space already, you've probably heard of [Expo](https://expo.dev/). Expo is essentially a suite of tools build for and around React Native, designed to improve and enhance the developer experience. They are a separate company, not affiliated with Facebook.
@@ -139,6 +137,8 @@ Expo restrictions only really come to play when you're doing advanced things wit
 
 In my experience, all the production apps I've working on have had to be ejected, even if they started with Expo. However it has been an invaluable tool for learning and quick prototyping. I always use Expo for in-person workshops primarily because it'd be a mighty boring workshop if we all spent 2+ hours just setting up our development environment, but also because I have been using a MacBook for the past 5 years and am not confident I can always help debug issues specific to Windows and Linux. For client projects, I have always used plain React Native, usually due to the client's preference.
 
+## Setup 
+
 ### [Expo] Getting started with Expo
 
 ### [RN] Getting started with plain React Native
@@ -146,6 +146,8 @@ In my experience, all the production apps I've working on have had to be ejected
 ### Adding a linter
 
 ### Debugging
+
+## Basic components
 
 ### Basic React Native components
 
@@ -159,4 +161,14 @@ In my experience, all the production apps I've working on have had to be ejected
 
 ### Lists Exercise 📝
 
+## Navigation
+
 ### Navigation Intro
+
+## Hooks and Network Requests
+
+## Forms
+
+## Conclusion
+
+## Extra Credit
