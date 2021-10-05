@@ -247,6 +247,18 @@ Open you terminal and run ```npx react-native run-ios``` or ```npx react-native 
 
 ### Adding a linter
 
+This step is optional. If you want to just get stuck in the code, feel free to skip this.
+
+Adding a linter to your React Native project is not mandatory, but highly encouraged. Not only does it help ensure a consistent code style throughout the project, it also highlights errors and often uncovers bad practices. I always set up linting and code formatting from the onset when starting a new project, even if it's just personal or a hobby project!
+
+The go-to linter for JavaScript is called [eslint](https://eslint.org). There are three main reasons you should always install a linter:
+
+
+1. Enforce consistent code style - double quotes or single? Trailing comma or no? Most experienced engineers have a preference one way or another, but ultimately most agree that it doesn't really matter, so long as it's consistent. With eslint we can set up these preferences once, and the whole project will be checked to ensure the same style is followed.
+2. Catch mistakes - it's easy to miss typos, unused variables and forgetting to return a variable from a function while developing. When integrating eslint to your code editor, you'll get helpful warnings and errors for these issues while you're writing your code. Saves a lot of debugging time!
+3. Avoid bad practices - JavaScript is a pretty amazing language in that it allows you to do pretty much anything. This is very powerful, but dangerous, because it leaves it up to us, the developers, to have some rules and order. Depending on the code style you do with (e.g. functional vs object oriented) there are many linting rules that help you enforce good practices that go with the code style you prefer.
+
+
 ### Debugging
 
 ## Basic components
