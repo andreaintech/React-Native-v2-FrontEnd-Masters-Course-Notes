@@ -3,6 +3,54 @@
 ### React Native v2
 Building mobile applications
 
+## Table of Contents
+
+### Introduction
+        Welcome
+        About React Native
+        Should you use Expo or plain React Native?
+### Setup
+        [Expo] Getting started with Expo
+        [RN] Getting started with plain React Native
+        Adding a linter
+        Debugging
+### Basic components
+        Basic React Native components
+        Styling
+        Styling Exercise 📝
+        Styling Exercise Solution 👀
+        Components
+        Lists
+        Lists Exercise 📝
+        Lists Exercise Solution 👀
+### Navigation
+        Navigation Intro
+        [Expo] Adding navigation with Expo
+        [RN] Adding navigation with plain React Native
+        Adding Navigation
+        Navigation Exercise 📝
+        Navigation Exercise Solution 👀
+### Hooks and Network Requests
+        useState, useCallback, useEffect
+        Network Requests Exercise 📝
+        Network Requests Exercise Solution 👀
+        Pull to refresh
+### Forms
+        Overview of Forms in React Native
+        Opening a full screen modal
+        Form exercise 📝
+        Form exercise solution 👀
+### Conclusion
+        Wrapping up
+### Extra Credit
+        [Expo] Ejecting from Expo
+        Platform Specific Code
+        Security
+
+
+
+
+
 ## Introduction
 ### Welcome
 
