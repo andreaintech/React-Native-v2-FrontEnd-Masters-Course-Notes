@@ -70,7 +70,15 @@ This is that my project structure looks like. Yours should look very similar. Le
 - ```package.json``` - this is where you list dependencies and add scripts
 - ```yarn.lock``` - you might not have this, but I had yarn installed, so expo added all my dependencies using yarn
 
-All in all, the only files you will really focus on are the App.js and package.json
+All in all, the only files you will really focus on are the ```App.js``` and ```package.json```
+
+### [RN] Getting started with plain React Native 
+
+If you are already familiar with mobile development (or if you can't or don't want to use Expo), you may want to use the React Native CLI. This requires Android Studio or XCode in order to get started. If you already have these installed, you should be up and running within minutes. If not, you should expect to spend an hour or so on installing and configuring them.
+
+Note! If you are using a Windows or Linux machine, you won't be able to build the iOS app, but you can build the Android one. This is why a lot of React Native developers end up using MacBook Pros, since this way you can work on both native apps are the same time. If you want to test on your own iOS device but you don't have a Mac, you may want to look into using Expo instead.
+
+For getting started, follow the React Native CLI quickstart in the [environment setup guide](https://reactnative.dev/docs/environment-setup) until the section titled **"Creating a New Application"**. If you are on a Mac, you may want to choose iOS for this workshop, as the setup tends to be easier than Android on a Mac. Once you're done, let's pick up from "Creating a New Application" together.
 
 ### Adding a linter
 
