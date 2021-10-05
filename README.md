@@ -14,6 +14,8 @@ using React since 2015 and React Native since 2017.
 ```
 For social media, you can find her on [Twitter](https://twitter.com/kadikraman), [LinkedIn](https://www.linkedin.com/in/kadi-kraman-922a7277/) and [GitHub](https://github.com/kadikraman).
 
+![image](https://user-images.githubusercontent.com/20091777/135958793-1b2c2e3d-73e9-4987-90ca-c75092c7e8b6.png)
+
 
 ## Table of Contents
 
