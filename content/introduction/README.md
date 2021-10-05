@@ -1,8 +1,3 @@
-# React Native v2 FrontEnd Masters Course Notes
-
-### React Native v2
-Building mobile applications
-
 ## Introduction
 ### Welcome
 
