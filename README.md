@@ -7,7 +7,7 @@ Building mobile applications
 
 ### [Introduction](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/tree/main/content/introduction#introduction)
 - [Welcome](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/tree/main/content/introduction#welcome)
-- About React Native
+- [About React Native](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/tree/main/content/introduction#about-react-native)
 - Should you use Expo or plain React Native?
 
 ### Setup
