@@ -439,13 +439,16 @@ export default App;
 
 There are a couple of important differences here. We can't use ```div```, ```span```, ```p``` or other html elements in React Native. Instead, we have special native components. The notable difference is that you have to import these components from ```react-native``` rather than just having them built into jsx.
 
-    ```<View>``` - if you're already familiar with web development, you can think of ```<View>``` as a native equivalent to ```<div>```. It's a container to use for styling and positioning the elements within.
-    ```<ScrollView>``` - pages do not scroll by default. If you have lots of content to display, you can use a ```ScrollView```
-    ```<Text>``` - the ```<Text>``` component is used for displaying, you guessed it, text! In React Native, all text you want to display must be contained in ```<Text>``` tags or you'll have errors.
+- ```<View>``` - if you're already familiar with web development, you can think of ```<View>``` as a native equivalent to ```<div>```. It's a container to use for styling and positioning the elements within.
+- ```<ScrollView>``` - pages do not scroll by default. If you have lots of content to display, you can use a ```ScrollView```
+
+- ```<Text>``` - the ```<Text>``` component is used for displaying, you guessed it, text! In React Native, all text you want to display must be contained in ```<Text>``` tags or you'll have errors.
 
 Now that we've got some components to work with - let's get coding!
 
+#### Basic Components and SafeAreaView
 
+Open your ```App.js```, delete the content and replace it with our "Hello, World" template.
 
 ### Styling
 
