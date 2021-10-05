@@ -397,6 +397,28 @@ Note: there is a known bug in [VSCode](https://github.com/microsoft/TypeScript/i
 
 ## Basic components
 
+If you're already familiar with React then you've got a head start, lucky you! Before we dive into React Native, let's start by looking at this "hello world" React component:
+
+```
+// App.js
+
+import React from 'react';
+
+const App = () => {
+  return <div>Hello, world!</div>;
+};
+
+export default App;
+```
+
+This is a minimal React component. If you're used React before, this will be familiar to you. If not, let's talk through what's going on here.
+
+React uses what they call JSX as syntax sugar for displaying components. JSX stands for "JavaScript and XML", and although XML is quite dated, it really works out for React, because the XML syntax looks very similar to HTML! The bonus is that we can do JavaScript around it.
+
+At the top of the file we have an import statement - ```import React from 'react';``` - though ```React``` is not used in the file. This is because ```React``` is needed for the JSX. As a rule of thumb, if the file includes any components with braces (```<>```) you'll need to import React.
+
+Now let's look at a corresponding React Native component:
+
 ### Basic React Native components
 
 ### Styling
