@@ -397,6 +397,7 @@ Note: there is a known bug in [VSCode](https://github.com/microsoft/TypeScript/i
 
 ## Basic components
 
+### Basic React Native components
 If you're already familiar with React then you've got a head start, lucky you! Before we dive into React Native, let's start by looking at this "hello world" React component:
 
 ```
@@ -436,7 +437,15 @@ const App = () => {
 export default App;
 ```
 
-### Basic React Native components
+There are a couple of important differences here. We can't use ```div```, ```span```, ```p``` or other html elements in React Native. Instead, we have special native components. The notable difference is that you have to import these components from ```react-native``` rather than just having them built into jsx.
+
+    ```<View>``` - if you're already familiar with web development, you can think of ```<View>``` as a native equivalent to ```<div>```. It's a container to use for styling and positioning the elements within.
+    ```<ScrollView>``` - pages do not scroll by default. If you have lots of content to display, you can use a ```ScrollView```
+    ```<Text>``` - the ```<Text>``` component is used for displaying, you guessed it, text! In React Native, all text you want to display must be contained in ```<Text>``` tags or you'll have errors.
+
+Now that we've got some components to work with - let's get coding!
+
+
 
 ### Styling
 
