@@ -141,6 +141,12 @@ In my experience, all the production apps I've working on have had to be ejected
 
 ### [Expo] Getting started with Expo
 
+If you're using Expo, you're in luck. This setup is not nearly as tricky as pure React Native, since Expo have done all the heavy lifting for you. All you need to do is first install the navigation library:
+
+```
+npm install @react-navigation/native
+```
+
 ### [RN] Getting started with plain React Native
 
 ### Adding a linter
