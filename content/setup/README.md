@@ -4,14 +4,53 @@
 
 The fastest way to get started with React Native is to us Expo and run the app on your device. Feel free to use the React Native docs or Expo docs for reference.
 
-### You'll need:
+#### You'll need:
 - A computer (Mac, Windows or Linux).
 - A smartphone (iPhone or Android).
 
-### Install Node
+#### Install Node
 
 First, make sure you have Node.js installed (12 or later). You can do this by opening a terminal and running ```node -v```. If not you can install it [here](https://nodejs.org/en/). There's usually two versions to choose from, pick the one that says LTS (Long Term Support) after the version number.
 
+#### Install Expo
+```
+npm install -g expo-cli
+```
+
+This installs the expo cli globally. We'll be using this to create our new project.
+
+#### Create the project
+
+```
+expo init AwesomeProject
+```
+
+You'll be prompted to choose a template. Pick 'blank' - we're starting from scratch!
+
+#### Run the project
+
+```
+cd AwesomeProject
+npm start
+```
+
+Note that you can also use ```expo start``` or ```yarn start``` if you have yarn installed.
+
+#### Preview the app on your phone
+
+First, make sure that your phone is connected to the same WiFi network as your computer. This is really important!
+
+Next you'll need to install the Expo client on your phone. This is the native shell Expo provides that lets you get started without having the build the native app yourself. Go to the App Store or Play store, search for "Expo" and install it. You will also have to create an Expo account if you don't already have one (don't worry - it's free!).
+
+Finally, open the browser window that was opened when you ran the packages. See the QA code? If you're on Android, you can scan the code with your Expo app. On iOS, open the camera app to can the code. You will be prompted to "open in Expo".
+
+At this point you should see something like this:
+
+![image](https://user-images.githubusercontent.com/20091777/135953772-1b3c5303-b7a8-4b02-9e52-00a0bba3adc6.png)
+
+And that's it! You're ready to start coding!
+
+🔗 [Expo dd3bca50a532c90902252a3e9dcd0ef608000ee8](https://github.com/kadikraman/AwesomeProjectExpo/commit/dd3bca50a532c90902252a3e9dcd0ef608000ee8)
 
 
 
