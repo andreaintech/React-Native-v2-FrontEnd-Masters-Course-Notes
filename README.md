@@ -368,6 +368,33 @@ Debug menu
 
 ![image](https://user-images.githubusercontent.com/20091777/135949460-f3ad2ccd-3e42-428b-a656-5e80e6ba0d7f.png)
 
+The debug menus for iOS, Android and Expo look a bit different per platform, but they all have the same options available.
+
+The main options you'll use are:
+
+- Refresh: this reloads the JavaScript bundle. You can also do this with Cmd + R (or Ctrl + R)
+- Debug: this opens a debug window in your browser
+- Show/hide inspector: this allows you to inspect individual elements on the page
+- Enable/disable fast refresh: you might know this as "hot reloading", it will update your app with your changes when you save the file, no need to refresh manually
+
+#### console.log() debugging
+
+Sometimes it's just good to log stuff out to see what's going on. The good news is that ```console.log()``` works just the same on React Native as in plain JavaScript.
+
+In order to log out to the console:
+
+- Open the debug menu (as described above) and turn on debug - this will open a new browser window.
+- Inspect the browser window (right click + inspect for most browsers).
+- ```console.log()``` something in your app.
+- The logged out text will appear in the browser console.
+
+Note:
+
+- ```console.warn``` will show a yellow box warning in React Native
+- ```console.error``` will show a full screen error
+
+Note: there is a known bug in [VSCode](https://github.com/microsoft/TypeScript/issues/30471) where typing in console incorrectly auto imports ```import console=require('console');```. You can get around this by turning off auto imports. Go to code => preferences => settings => auto imports to do this.
+
 
 ## Basic components
 
