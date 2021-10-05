@@ -419,6 +419,23 @@ At the top of the file we have an import statement - ```import React from 'react
 
 Now let's look at a corresponding React Native component:
 
+```
+// App.js
+
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const App = () => {
+  return (
+    <View>
+      <Text>Hello, world!</Text>
+    </View>
+  );
+};
+
+export default App;
+```
+
 ### Basic React Native components
 
 ### Styling
