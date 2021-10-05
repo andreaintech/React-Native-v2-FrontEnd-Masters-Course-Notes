@@ -255,7 +255,9 @@ The go-to linter for JavaScript is called [eslint](https://eslint.org). There ar
 
 
 1. Enforce consistent code style - double quotes or single? Trailing comma or no? Most experienced engineers have a preference one way or another, but ultimately most agree that it doesn't really matter, so long as it's consistent. With eslint we can set up these preferences once, and the whole project will be checked to ensure the same style is followed.
+
 2. Catch mistakes - it's easy to miss typos, unused variables and forgetting to return a variable from a function while developing. When integrating eslint to your code editor, you'll get helpful warnings and errors for these issues while you're writing your code. Saves a lot of debugging time!
+
 3. Avoid bad practices - JavaScript is a pretty amazing language in that it allows you to do pretty much anything. This is very powerful, but dangerous, because it leaves it up to us, the developers, to have some rules and order. Depending on the code style you do with (e.g. functional vs object oriented) there are many linting rules that help you enforce good practices that go with the code style you prefer.
 
 #### Adding eslint - installation (step 1 of 4)
@@ -288,6 +290,35 @@ We've now installed both eslint and the community preset, but the eslint package
 Create a new file in the root directory of your project and call it ```.eslintrc.js``` (yes, the filename starts with a ```.```). If you used ```react-native init``` to create your project, then you'll already have this file, but with Expo you'll have to create it.
 
 Open the file and add the following:
+
+```
+// .eslintrc.js
+
+module.exports = {
+  root: true,
+  extends: '@react-native-community',
+};
+```
+
+This lets the linter know about the configuration package we want to use.
+
+The community package actually comes with prettier pre-installed. Prettier is another package complimentary to eslint, but it focuses on code formatting. It mostly deals how the code looks rather than its correctness. The great thing about prettier is that if you can turn on "format on save" or have a pre-commit hook that runs its before a commit so your code will always be formatted uniformly.
+
+Prettier has very few configuration options, because their mentality is to have as few variations as possible. I am definitely guilty of having a preference here. If you'd like your code to look exactly like mine in the example, add these prettier settings.
+
+Create another file in the root directory of your project and call it ```.prettierrc.js``` (you'll already have this file as well if you used ```react-native init```)
+
+Open the file and add the following:
+
+```
+// .prettierrc.js
+
+module.exports = {
+  bracketSpacing: true,
+  singleQuote: true,
+  trailingComma: 'all',
+};
+```
 
 ### Debugging
 
