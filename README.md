@@ -320,6 +320,18 @@ module.exports = {
 };
 ```
 
+- ```bracketSpacing``` - adding a space around brackets, e.g. ```import { useState } from 'react';``` vs ```import {useState} from 'react';```
+- ```singleQuote``` - using single quotes for strings, e.g. ```import React from 'react'``` vs ```import React from "react"```
+- ```trailingComma``` - adding a trailing comma after array arguments (the default is not to have a trailing comma for the last element of the array).
+
+#### Adding eslint - adding the run script (step 3 of 4)
+
+Now we have eslint installed and configured. But how to actually run it? Open the ```package.json``` in your project and add the following under the ```scripts``` section:
+
+```
+"lint": "eslint ."
+```
+
 ### Debugging
 
 ## Basic components
