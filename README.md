@@ -243,6 +243,8 @@ Now you'll have to also rebuild the native application. Whenever you add a libra
 
 Open you terminal and run ```npx react-native run-ios``` or ```npx react-native run-android``` depending on what you're building for.
 
+🔗 [RN 3824add6be518a449c38e5935f1a39c26326352f](https://github.com/kadikraman/AwesomeProjectRN/commit/3824add6be518a449c38e5935f1a39c26326352f)
+
 ### Adding a linter
 
 ### Debugging
