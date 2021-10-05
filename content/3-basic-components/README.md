@@ -107,15 +107,3 @@ export default App;
 ### Lists Exercise 📝
 
 ### Lists Exercise Solution 👀
-
-## Navigation
-
-### Navigation Intro
-
-## Hooks and Network Requests
-
-## Forms
-
-## Conclusion
-
-## Extra Credit
