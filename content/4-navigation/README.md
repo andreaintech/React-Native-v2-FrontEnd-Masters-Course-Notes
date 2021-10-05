@@ -2,10 +2,14 @@
 
 ### Navigation Intro
 
-## Hooks and Network Requests
+### [Expo] Adding navigation with Expo
 
-## Forms
+### [RN] Adding navigation with plain React Native
 
-## Conclusion
+### Adding Navigation
 
-## Extra Credit
+### Navigation Exercise 📝
+
+### Navigation Exercise Solution 👀
+
+
