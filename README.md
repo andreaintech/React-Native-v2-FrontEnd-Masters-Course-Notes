@@ -16,7 +16,7 @@ Building mobile applications
 - [Adding a linter](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/tree/main/content/2-setup#adding-a-linter)
 - [Debugging](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/tree/main/content/2-setup#debugging)
 
-### [Basic components](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/3-basic-components/README.md#basic-react-native-components)
+### [Basic components](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/3-basic-components/README.md#basic-components)
 - Basic React Native components
 - Styling
 - Styling Exercise 📝
