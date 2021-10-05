@@ -181,13 +181,13 @@ Your folder structure looks a little something like this:
 
 ![image](https://user-images.githubusercontent.com/20091777/135956266-87a5706b-2f2a-4464-87e0-50b4e95fd4c7.png)
 
-If you also looked at the [Expo setup guide]() you'll notice that there's a lot more going on in this template. Here are the highlights:
+If you also looked at the [Expo setup guide](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/setup/README.md#expo-getting-started-with-expo) you'll notice that there's a lot more going on in this template. Here are the highlights:
 
-    index.js - this is the main entry point of your application. It is equivalent to React on the web mounting the project to the root DOM node
-    App.js - this is the file that we care the most about. This is where we'll be writing all our code
-    /android and /ios - these are the folders where all the native code lives. If we needed to add or edit any platform specific native code, this is where we'd have to look. We also need to go into these folders if we have to install any native libraries
-    .buckconfig and .flowconfig - the facebook react native template comes with flow pre-installed. Using this is optional though and we will be sticking with plain React Native in this workshop.
-    .prettierrc.js this is a code formatter which is again optional, but you can read more about it in our code style chapter
+- ```index.js``` - this is the main entry point of your application. It is equivalent to React on the web mounting the project to the root DOM node
+- ```App.js``` - this is the file that we care the most about. This is where we'll be writing all our code
+- ```/android``` and ```/ios``` - these are the folders where all the native code lives. If we needed to add or edit any platform specific native code, this is where we'd have to look. We also need to go into these folders if we have to install any native libraries
+- ```.buckconfig``` and ```.flowconfig``` - the facebook react native template comes with flow pre-installed. Using this is optional though and we will be sticking with plain React Native in this workshop.
+- ```.prettierrc.js``` this is a code formatter which is again optional, but you can read more about it in our code style chapter
 
 
 
