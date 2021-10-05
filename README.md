@@ -281,6 +281,14 @@ This will add two packages to your dev dependencies:
 
 You can always configure your own linting rules of course, but I like to start with community presets.
 
+#### Adding eslint - adding the configuration files (step 2 of 4)
+
+We've now installed both eslint and the community preset, but the eslint package doesn't know about the preset. In order to make eslint aware of this, we need to add a configuration file.
+
+Create a new file in the root directory of your project and call it ```.eslintrc.js``` (yes, the filename starts with a ```.```). If you used ```react-native init``` to create your project, then you'll already have this file, but with Expo you'll have to create it.
+
+Open the file and add the following:
+
 ### Debugging
 
 ## Basic components
