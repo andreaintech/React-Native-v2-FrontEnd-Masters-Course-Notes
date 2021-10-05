@@ -96,6 +96,8 @@ export default App;
 ```
 ### Styling
 
+### Styling Exercise 📝
+
 ### Styling Exercise Solution 👀
 
 ### Components
