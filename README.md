@@ -105,7 +105,7 @@ Without getting overly technical here, React Native is built in such a way that 
 
 Source: https://hackernoon.com/understanding-react-native-bridge-concept-e9526066ddb8
 
-## Should you use Expo or plain React Native?
+### Should you use Expo or plain React Native?
 
 If you've been eyeing up the React Native space already, you've probably heard of [Expo](https://expo.dev/). Expo is essentially a suite of tools build for and around React Native, designed to improve and enhance the developer experience. They are a separate company, not affiliated with Facebook.
 
