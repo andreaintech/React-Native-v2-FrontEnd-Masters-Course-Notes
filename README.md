@@ -258,6 +258,21 @@ The go-to linter for JavaScript is called [eslint](https://eslint.org). There ar
 2. Catch mistakes - it's easy to miss typos, unused variables and forgetting to return a variable from a function while developing. When integrating eslint to your code editor, you'll get helpful warnings and errors for these issues while you're writing your code. Saves a lot of debugging time!
 3. Avoid bad practices - JavaScript is a pretty amazing language in that it allows you to do pretty much anything. This is very powerful, but dangerous, because it leaves it up to us, the developers, to have some rules and order. Depending on the code style you do with (e.g. functional vs object oriented) there are many linting rules that help you enforce good practices that go with the code style you prefer.
 
+#### Adding eslint - installation (step 1 of 4)
+
+First, we should install the package. For this, open your terminal, navigate to the root directory of your project and run the following:
+
+With npm:
+
+```
+npm install eslint @react-native-community/eslint-config --save-dev
+```
+
+With yarn:
+
+```
+yarn add eslint @react-native-community/eslint-config --dev
+```
 
 ### Debugging
 
