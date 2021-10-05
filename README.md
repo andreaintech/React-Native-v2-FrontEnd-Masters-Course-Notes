@@ -12,7 +12,7 @@ After that, she followed a long and winding road to end up where she is now,
 but suffice it to say she has been writing code professionally since 2013, 
 using React since 2015 and React Native since 2017.
 ```
-For social media, you can find her on [Twitter](https://twitter.com/kadikraman), [LinkedIn]() and [GitHub]().
+For social media, you can find her on [Twitter](https://twitter.com/kadikraman), [LinkedIn](https://www.linkedin.com/in/kadi-kraman-922a7277/) and [GitHub](https://github.com/kadikraman).
 
 
 ## Table of Contents
