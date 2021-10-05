@@ -274,6 +274,13 @@ With yarn:
 yarn add eslint @react-native-community/eslint-config --dev
 ```
 
+This will add two packages to your dev dependencies:
+
+- eslint - the code linter for JavaScript
+- @react-native-community/eslint-config - a community-built eslint configuration for React Native
+
+You can always configure your own linting rules of course, but I like to start with community presets.
+
 ### Debugging
 
 ## Basic components
