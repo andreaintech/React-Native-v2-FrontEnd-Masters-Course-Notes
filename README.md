@@ -450,6 +450,47 @@ Now that we've got some components to work with - let's get coding!
 
 Open your ```App.js```, delete the content and replace it with our "Hello, World" template.
 
+```
+// App.js
+
+import React from 'react';
+import { View, Text } from 'react-native';
+
+const App = () => {
+  return (
+    <View>
+      <Text>Hello, world!</Text>
+    </View>
+  );
+};
+
+export default App;
+```
+
+How does it look? Not great I imagine. You might notice that the text is overlaid by the notification bar at the top of the screen. You could add some padding to the top of the screen, but that wouldn't serve for a general solution - while it might work for the phone you're testing on for the moment, there are tends of iPhones and hundreds of Android phones with different specs.
+
+Thankfully there is something handy built into React Native to help with this. ```SafeAreaView``` is a component that automatically adds the necessary padding around your content to ensure that you don't overlap with the top and bottom of the screen. This was especially handy when iPhone X came out, as it handles the bottom spacing necessary for the notch.
+
+All you need to do is to import the ```SafeAreaView``` from ```react-native``` and wrap your content around it like so:
+
+```
+// App.js
+
+import React from 'react';
+import { View, Text, SafeAreaView } from 'react-native';
+
+const App = () => {
+  return (
+    <SafeAreaView>
+      <View>
+        <Text>Hello, world!</Text>
+      </View>
+    </SafeAreaView>
+  );
+};
+
+export default App;
+```
 ### Styling
 
 ### Styling Exercise Solution 👀
