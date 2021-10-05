@@ -106,6 +106,8 @@ export default App;
 
 ### Lists Exercise 📝
 
+### Lists Exercise Solution 👀
+
 ## Navigation
 
 ### Navigation Intro
