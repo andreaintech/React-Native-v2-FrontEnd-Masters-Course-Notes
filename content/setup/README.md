@@ -187,9 +187,7 @@ If you also looked at the [Expo setup guide](https://github.com/adasilvapdev/Rea
 - ```App.js``` - this is the file that we care the most about. This is where we'll be writing all our code
 - ```/android``` and ```/ios``` - these are the folders where all the native code lives. If we needed to add or edit any platform specific native code, this is where we'd have to look. We also need to go into these folders if we have to install any native libraries
 - ```.buckconfig``` and ```.flowconfig``` - the facebook react native template comes with flow pre-installed. Using this is optional though and we will be sticking with plain React Native in this workshop.
-- ```.prettierrc.js``` this is a code formatter which is again optional, but you can read more about it in our code style chapter
-
-
+- ```.prettierrc.js``` this is a code formatter which is again optional, but you can read more about it in our [code style chapter](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/tree/main/content/setup#adding-a-linter)
 
 ### Adding a linter
 
