@@ -52,8 +52,25 @@ And that's it! You're ready to start coding!
 
 🔗 [Expo dd3bca50a532c90902252a3e9dcd0ef608000ee8](https://github.com/kadikraman/AwesomeProjectExpo/commit/dd3bca50a532c90902252a3e9dcd0ef608000ee8)
 
+#### Folder Structure
 
+Let's have a look at what the plain Expo application template looks like:
 
+![image](https://user-images.githubusercontent.com/20091777/135953841-59015155-6a08-49df-8153-11468a24d306.png)
+
+This is that my project structure looks like. Yours should look very similar. Let's see what's going on one by one:
+
+- /.expo-shared - this is an expo internal folder, no need to peek in there
+- /assets - this is where we store any assets we may want to use in our application, like images, videos, fonts and icons
+- /node_modules - these are all the packages we have installed that make up Expo and React Native. Whenever you npm install a new package, it gets added here. This folder should never be checked into source control
+- .gitignore - this is a file to tell .git which files and directories we want to omit from course control. node_modules is listed there
+- App.js - the main entry point to our application. This is where you'll start adding code!
+- app.json - another config file, mostly for expo metadata
+- babel.config.js - babel config, used to add the expo preset
+- package.json - this is where you list dependencies and add scripts
+- yarn.lock - you might not have this, but I had yarn installed, so expo added all my dependencies using yarn
+
+All in all, the only files you will really focus on are the App.js and package.json
 
 ### Adding a linter
 
