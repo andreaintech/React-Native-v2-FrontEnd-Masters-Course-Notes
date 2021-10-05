@@ -13,8 +13,8 @@ Building mobile applications
 ### [Setup](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/tree/main/content/setup#setup)
 - [Expo] Getting started with Expo
 - [RN] Getting started with plain React Native
-- Adding a linter
-- Debugging
+- [Adding a linter](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/tree/main/content/setup#adding-a-linter)
+- [Debugging](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/tree/main/content/setup#debugging)
 
 ### Basic components
 - Basic React Native components
