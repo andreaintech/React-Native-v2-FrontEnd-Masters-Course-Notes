@@ -354,6 +354,21 @@ You may have to close and reopen your code editor for the package to start worki
 
 ### Debugging
 
+As developers, we spend a whole lot of time debugging, especially when learning something new. Let's look at some debugging tips for React Native.
+
+Debug menu
+
+- on device - shake the device (yes, really!)
+- iOS simulator - Cmd + D
+- Android emulator - Cmd + M on Mac, Crl + M on Windows/Linux
+
+![image](https://user-images.githubusercontent.com/20091777/135949426-caee1b62-80fc-434b-be1e-19ca56522cdc.png)
+
+![image](https://user-images.githubusercontent.com/20091777/135949440-603556a2-f8c4-4041-972d-fb1508e9db66.png)
+
+![image](https://user-images.githubusercontent.com/20091777/135949460-f3ad2ccd-3e42-428b-a656-5e80e6ba0d7f.png)
+
+
 ## Basic components
 
 ### Basic React Native components
