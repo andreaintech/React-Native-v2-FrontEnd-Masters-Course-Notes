@@ -237,6 +237,12 @@ const App = () => {
 export default App;
 ```
 
+Note that the gesture handle import has to be the very first line in your file, even before the React import, and the ```<NavigationContainer>``` wraps around the whole app.
+
+Now you'll have to also rebuild the native application. Whenever you add a library that has native dependencies, you'll have to reinstall in order for the new library to be included in the build.
+
+Open you terminal and run ```npx react-native run-ios``` or ```npx react-native run-android``` depending on what you're building for.
+
 ### Adding a linter
 
 ### Debugging
