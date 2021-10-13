@@ -39,7 +39,7 @@ For social media, you can find her on [Twitter](https://twitter.com/kadikraman),
 - [Components](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/3-basic-components/README.md#components)
 - [Lists](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/3-basic-components/README.md#lists)
 - [Lists Exercise 📝](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/3-basic-components/README.md#lists-exercise-)
-- [Lists Exercise Solution 👀]()
+- [Lists Exercise Solution 👀](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/3-basic-components/README.md#lists-exercise-solution-)
 
 ### [Navigation](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/4-navigation/README.md#navigation)
 - [Navigation Intro]()
