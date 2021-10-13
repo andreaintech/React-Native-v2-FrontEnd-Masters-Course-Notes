@@ -49,6 +49,12 @@ There won't be any UI changes after this change. We're just setting things up fo
 
 ### [RN] Adding navigation with plain React Native
 
+We will be following the [getting started guide](https://reactnavigation.org/docs/getting-started) on the React Navigation website. Feel free to use it as a reference.
+
+React Navigation is what we call a "library with native dependencies". That is, it doesn't *just* contain JavaScript code and dependencies: it also has some native to iOS and Android. This is necessary for navigation, because we want to take utilise the tools already natively available for navigation to make the user experience as seamless as possible.
+
+First, let's install the necessary dependencies. Run this in your terminal in tour project directory:
+
 ### Adding Navigation
 
 ### Navigation Exercise 📝
