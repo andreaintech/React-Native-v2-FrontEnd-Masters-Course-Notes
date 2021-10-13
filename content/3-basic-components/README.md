@@ -142,9 +142,9 @@ Notice that the style names in React Native are in camelCase instead of kebab-ca
 
 The style properties you can use depend on the component you're trying to style, and fall into 3 categories:
 
-- [View style props]()
-- [Text style props]()
-- [Image style props]()
+- [View style props](https://reactnative.dev/docs/view-style-props)
+- [Text style props](https://reactnative.dev/docs/text-style-props)
+- [Image style props](https://reactnative.dev/docs/image-style-props)
 
 There are some special properties you might not have seen on the web. For instance, you will frequently find yourself applying the same padding or margin. There is a shorthand for it on the web where you can do ```margin: 10, 20```, but this won't fly here, since we use number, not strings. Instead, we can set the styles to be ```horizontal``` or ```vertical```. So instead of writing this:
 
@@ -183,6 +183,73 @@ const styles = StyleSheet.create({
   },
 });
 ```
+
+To center all content in a container vertically, we can use ```justifyContent: 'center'```. We'll also have to use ```flex: 1``` to ensure the component takes up the whole height of the screen. If the component is nested inside another component, you'll have to make sure the other component also has ```flex: 1```:
+
+```
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+  },
+});
+```
+
+#### Styles without StyleSheet
+
+You should always aim to write your styles in a StyleSheet, but sometimes it's not possible or just sub-optimal. For example if you had to add styles dynamically. In this case, we can pass styles into the component as plain objects like so:
+
+```
+<View style={{ backgroundColor: 'teal' }} />
+```
+
+Notice the double braces? The first set of braces is to tell JSX we're passing in an object and the second is for the actual object. This is equivalent:
+
+```
+const componentStyle = { backgroundColor: 'teal' };
+
+<View style={componentStyle} />;
+```
+
+#### Multiple styles in one component
+
+Sometimes you may want to add multiple style objects to one element. You can do this by passing in an array of styles instead of a single style like so:
+
+```
+<View style={[styles.firstStyle, styles.secondStyle]} />
+```
+
+The styles cascade as they would on the web, so the later styles would override the former if there are any repeats.
+
+You can also mix ```StyleSheet``` styles and object styles:
+
+```
+<View style={[styles.firstStyle, { backgroundColor: 'teal' }]} />
+```
+
+#### Side note: Styled Components
+
+If you are a fan of styled components, you might be excited to know that they have React Native support! Styling native elements looks pretty much the same as on the web, only instead of:
+
+```
+import styled from 'styled-components';
+
+const StyledDiv = styled.div`
+  background-color: lavender;
+`;
+```
+
+You'll have to do:
+
+```
+import styled from 'styled-components/native';
+
+const StyledView = styled.View`
+  background-color: lavender;
+`;
+```
+
+Otherwise the experience is exactly the same! You can even use ```snake-case``` like on the web! For this workshop, we will use ```StyleSheet```, but feel free to explore this in your own time. Read more about it [here](https://styled-components.com/docs/basics#react-native).
 
 ### Styling Exercise 📝
 
