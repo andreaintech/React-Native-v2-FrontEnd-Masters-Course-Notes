@@ -1,5 +1,6 @@
 ## Navigation
 
+### Navigation Intro
 Now it's time to add navigation to our app. Let's start with adding a new page where we could list multiple color schemes as a list, and then navigate to a new page to view their details.
 
 In order to achieve this, we will need a way to navigate between screens.
@@ -12,7 +13,7 @@ They both have more of less the same feature set - you can navigate between scre
 
 For this workshop, we will be using React Navigation, because this is what is also bundle with Expo, and we want to keep the course content such that it could be followed with and without Expo.
 
-### Navigation Intro
+### [Expo] Adding navigation with Expo
 
 If you're using Expo, you're in luck. This setup is not nearly as tricky as pure React Native, since Expo have done all the heavy lifting for you. All you need to do is first install the navigation library:
 
@@ -45,8 +46,6 @@ Specifically, you are importing the ```NavigationContainer``` from the navigatio
 There won't be any UI changes after this change. We're just setting things up for the next step.
 
 🔗 [Expo fe48ac7768b92ea954b3333c09f7f7b62fa2b8ba](https://github.com/kadikraman/AwesomeProjectExpo/commit/fe48ac7768b92ea954b3333c09f7f7b62fa2b8ba)
-
-### [Expo] Adding navigation with Expo
 
 ### [RN] Adding navigation with plain React Native
 
