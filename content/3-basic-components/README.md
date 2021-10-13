@@ -103,6 +103,72 @@ Now you can be confident your content will be visible regardless of the device.
 
 ### Styling
 
+In React Native, all styling is done using inline styles. We use a ```StyleSheet``` from ```react-native``` to create the styles. Usually we add this styles constant at the bottom of the file, or in a separate file:
+
+```
+const styles = StyleSheet.create({
+  container: {
+    padding: 10,
+  },
+});
+```
+
+React Native styles are actually very similar to css styles on the web. The debugger also displays helpful error messages when you try to add styles that don't exist on a particular component type.
+
+```StyleSheet.create``` creates an optimized style object where you can access the individual styles like on a regular object. In this case, ```styles.container``` would give you all the container styles. Now we can use this style prop inside our JSX by passing it into the relevant element:
+
+```
+<View style={styles.container}>
+  <Text>Hello, world!</Text>
+</View>
+```
+
+This is pretty similar to the styles on the web, only we omit the units (```px```, ```em```, ```rem``` etc), because all dimensions in React Native are unitless, and represent density-independent pixels.
+
+Adding a background colour for the component while your debugging can help understand positioning. We could add a background color using the ```backgroundColor``` property:
+
+```
+const styles = StyleSheet.create({
+  container: {
+    backgroundColor: 'lavender',
+    padding: 10,
+  },
+});
+```
+
+Note that all the web colors will work here, but we can also use hex ```#ffffff``` or rgb ```rgb(255,255,255)``` or rgba ```rgba(255,0,0,0.3)```.
+
+Notice that the style names in React Native are in camelCase instead of kebab-case, but otherwise are the same as the web!
+
+The style properties you can use depend on the component you're trying to style, and fall into 3 categories:
+
+- [View style props]()
+- [Text style props]()
+- [Image style props]()
+
+There are some special properties you might not have seen on the web. For instance, you will frequently find yourself applying the same padding or margin. There is a shorthand for it on the web where you can do ```margin: 10, 20```, but this won't fly here, since we use number, not strings. Instead, we can set the styles to be ```horizontal``` or ```vertical```. So instead of writing this:
+
+```
+const styles = StyleSheet.create({
+  container: {
+    paddingLeft: 10,
+    paddingRight: 10,
+    marginTop: 20,
+    marginBottom: 20,
+  },
+});
+```
+
+We can write this:
+
+```
+const styles = StyleSheet.create({
+  container: {
+    paddingHorizontal: 10,
+    marginVertical: 20,
+  },
+});
+```
 ### Styling Exercise 📝
 
 ### Styling Exercise Solution 👀
