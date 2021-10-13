@@ -254,7 +254,27 @@ Now we need to make it so when you press on the word ```Solarized```, it will op
 
 We will be using ```TouchableOpacity```. Go ahead and wrap the text in the ```Home.js``` component in a ```<TouchableOpacity>```. On the web, buttons have an ```onClick``` property. On mobile, we have an ```onPress``` which takes a function that will be executed when the user presses on anything inside the touchable area.
 
-Finally, we'll need a way to tell the navigation where we'd like to go. Every component inside ```Stack.Screen``` will automatically get access to a special [```navigation``` prop](). This is the main tool you'll be using for anything navigation-related in your app. It can do a bunch of things, like programmatically go back a screen, reset the navigation stack and much more. We will be using it to navigate to the ColorPalette screen. This is done by calling the navigate function on the prop and passing in the desired route name:
+Finally, we'll need a way to tell the navigation where we'd like to go. Every component inside ```Stack.Screen``` will automatically get access to a special [```navigation``` prop](https://reactnavigation.org/docs/navigation-prop). This is the main tool you'll be using for anything navigation-related in your app. It can do a bunch of things, like programmatically go back a screen, reset the navigation stack and much more. We will be using it to navigate to the ```ColorPalette``` screen. This is done by calling the ```navigate``` function on the prop and passing in the desired route name:
+
+```
+// screens/Home.js
+
+const Home = ({ navigation }) => {
+  return (
+    <View>
+      <TouchableOpacity onPress={() => navigation.navigate('ColorPalette')}>
+        <Text>Solarized</Text>
+      </TouchableOpacity>
+    </View>
+  );
+};
+```
+
+🔗 [Expo f4df234627b546758e8b573f43286e0ca73cc46b](https://github.com/kadikraman/AwesomeProjectExpo/commit/f4df234627b546758e8b573f43286e0ca73cc46b)
+
+🔗 [RN cfdef69d85efcd0967ee35c795fc64906e2bf2c8](https://github.com/kadikraman/AwesomeProjectRN/commit/cfdef69d85efcd0967ee35c795fc64906e2bf2c8)
+
+👩‍💻 [Live Coding 0cf28f8a982310c7a50f66c09c3e5abea55fc492](https://github.com/FrontendMasters/AwesomeProjectExpo/commit/0cf28f8a982310c7a50f66c09c3e5abea55fc492)
 
 ### Navigation Exercise 📝
 
