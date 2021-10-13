@@ -1,7 +1,6 @@
 # React Native v2 FrontEnd Masters Course Notes
 
-### React Native v2
-Building mobile applications
+### React Native v2 - Building mobile applications
 
 ```
 Kadi is a Senior Software Engineer at Formidable where she builds things in JavaScript, mostly using React Native. 
