@@ -253,6 +253,21 @@ Otherwise the experience is exactly the same! You can even use ```snake-case``` 
 
 ### Styling Exercise 📝
 
+The best way to learn is by doing so let's start off by adding some colour. Here's a little app I built, showcasing come of my favourite colours. Try to recreate it!
+
+Here are the colours I used:
+
+```
+Cyan: #2aa198
+Blue: #268bd2
+Magenta: #d33682
+Orange: #cb4b16
+```
+
+![image](https://user-images.githubusercontent.com/20091777/137065168-421d6ff5-ba0f-443d-bedc-8a5a54e268dd.png)
+
+![image](https://user-images.githubusercontent.com/20091777/137065182-4b1f3099-4235-4ac4-a200-448fd4c8e075.png)
+
 ### Styling Exercise Solution 👀
 
 ### Components
