@@ -321,9 +321,8 @@ const FRONTEND_MASTERS = [
 ];
 ```
 
-![image](https://user-images.githubusercontent.com/20091777/137190140-0de63662-2054-42e3-bb55-48a0176510b3.png)
+![palette-preview](https://user-images.githubusercontent.com/20091777/137190339-7c11f668-6ef4-4d3b-87da-75ace081744d.gif)
 
-https://kadikraman.github.io/react-native-v2/df0d61b5d9bca45275634e852df92fa5/palette-preview.gif
 
 ### Navigation Exercise Solution 👀
 
