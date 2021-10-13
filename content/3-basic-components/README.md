@@ -169,6 +169,21 @@ const styles = StyleSheet.create({
   },
 });
 ```
+
+#### Positioning
+
+In React Native, all positioning is done using FlexBox and all elements have ```display: flex``` applied by default. If you've not used flex much before it may seem a bit daunting, but the basics are not too tricky to grasp. If you have time, [FlexBox froggy]() is a fun little game that introduce you to the flex iteratively while you move frogs around the pond. For everyday reference [this guide]() from CSS Tricks is pretty handy.
+
+Suppose we wanted to center all content in a container horizontally. For this, we can use ```alignItems: 'center```:
+
+```
+const styles = StyleSheet.create({
+  container: {
+    alignItems: 'center',
+  },
+});
+```
+
 ### Styling Exercise 📝
 
 ### Styling Exercise Solution 👀
