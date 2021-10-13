@@ -638,4 +638,4 @@ In this solution we're removed the individual ```ColorBox```es and rendered them
 - Notice that the name of the palette scrolls with the colors. This is because we added it to FlatList using the ```ListHeaderComponent``` prop.
 - We've used a little calculation to adjust text colour for the background colour. There are better algorithms to do this, but this is definitely the shortest: ```parseInt(props.hexCode.replace('#', ''), 16) > 0xffffff / 1.1```. Here we essentially get the lightest 10% of the background colors and display black text for these, and white for the rest.
 
-##### *[Navigation Intro →](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/4-navigation/README.md#navigation)*
+##### *[Navigation →](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/4-navigation/README.md#navigation)*
