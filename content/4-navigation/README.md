@@ -124,6 +124,12 @@ Open you terminal and run ```npx react-native run-ios``` or ```npx react-native 
 
 ### Adding Navigation
 
+There are two main types of navigation on mobile: bottom navigation, and stack navigation. You've certainly seen bottom navigation before, most apps have it: these are navigation items at the bottom of the screen and allow you to navigate between different sections of the app. Open the Twitter app for instance. (If you don't use Twitter, open Facebook, Instagram, Headspace, Spotify - most any app really, they all work the same regardless of whether they're build with React Native or not) Notice we have 4 bottom navigation items: home, search, notifications and messages. Notice also that navigating between them is pretty instant. When the app is launched, all the root pages of the bottom navigation get rendered at once. This is something to be mindful of if you're doing a lot of network requests on your root pages.
+
+Now make sure you're on the home page of the twitter app and press on a tweet. Notice that the home icon is still selected, we've not navigated away from Home, but we've pushed another page onto the stack. This is the tweet detail screen. Most root pages on the bottom navigator are stacks. Notice also that this screen has a back button so we can navigate back to our root page. Leave the tweet detail page selected and move from home to search and back - notice that the tweet detail page is still selected even though we navigated away? That's something to be mindful of.
+
+We don't need a bottom navigator yet, let's start with a single stack and two screens: ```Home``` and ```ColorPalette```. First things first, let's install the npm module for the stack navigator:
+
 ### Navigation Exercise 📝
 
 ### Navigation Exercise Solution 👀
