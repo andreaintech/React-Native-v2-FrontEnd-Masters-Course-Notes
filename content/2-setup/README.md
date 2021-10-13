@@ -338,3 +338,5 @@ Note:
 - ```console.error``` will show a full screen error
 
 Note: there is a known bug in [VSCode](https://github.com/microsoft/TypeScript/issues/30471) where typing in console incorrectly auto imports ```import console=require('console');```. You can get around this by turning off auto imports. Go to code => preferences => settings => auto imports to do this.
+
+##### *[Basic components →](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/3-basic-components/README.md#basic-components)*
