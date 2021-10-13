@@ -55,6 +55,10 @@ React Navigation is what we call a "library with native dependencies". That is, 
 
 First, let's install the necessary dependencies. Run this in your terminal in tour project directory:
 
+```
+npm install @react-navigation/native react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+```
+
 ### Adding Navigation
 
 ### Navigation Exercise 📝
