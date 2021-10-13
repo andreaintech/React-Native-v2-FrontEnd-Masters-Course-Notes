@@ -323,6 +323,7 @@ const FRONTEND_MASTERS = [
 
 ![palette-preview](https://user-images.githubusercontent.com/20091777/137190339-7c11f668-6ef4-4d3b-87da-75ace081744d.gif)
 
+This is a guide for what the completed exercise should looks like. Notice that the navigation is different between iOS and Android? This is because both platforms leverage the native conventions for navigation. It is what the user is expecting and provides the best experience.
 
 ### Navigation Exercise Solution 👀
 
