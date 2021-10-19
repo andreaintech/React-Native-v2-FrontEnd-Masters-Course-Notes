@@ -140,4 +140,57 @@ Finally, we add a ```useEffect``` which will trigger the ```handleFetchPalettes`
 
 ### Pull to refresh
 
+Next we'd like to show the user when we're fetching data. Thankfully for us, native components have a scroll indicator built in! This comes in the form of [RefreshControl](https://reactnative.dev/docs/refreshcontrol) and you can use it with any *scrollable* component: ScrollView, FlatList or SectionList.
+
+All these scrollable components have a ```refreshControl``` props which should be used to pass in or customize the ```RefreshControl``` components. Let's import it and add it to our ```FlatList```.
+
+```
+import { RefreshControl } from 'react-native';
+
+<FlatList
+  refreshControl={<RefreshControl refreshing={true} onRefresh={() => {}} />}
+/>;
+```
+
+Now you should see that the refreshControl is always visible! This is because we set the ```refreshing``` prop to always be true. Let's make this dynamic. First we'll need to create a new ```useState``` variable to hold the refreshing state:
+
+```
+const [isRefreshing, setIsRefreshing] = useState(false);
+```
+
+Now we'll need a callback that
+1. Sets the refreshing state to ```true```.
+2. Re-fetches the data.
+3. Sets the refreshing state back to ```false```.
+
+```
+const handleRefresh = useCallback(async () => {
+  setIsRefreshing(true);
+  await handleFetchPalettes();
+  setIsRefreshing(false);
+});
+```
+
+Finally, let's pass the relevant variables into our ```<RefreshControl>``` component:
+
+```
+<RefreshControl refreshing={isRefreshing} onRefresh={handleRefresh} />
+```
+
+In most cases, that's it! For me in this case I found that my API was too fast (what a problem to have, eh?) so I added a timeout to ensure the loading spinner is displayed for at least 1 second. It seems silly to make the app artificually *slower*, but sometimes it is a good practice from the UX point of view.
+
+All you'll need to do it wrap the last ```setIsRefreshing``` in a ```setTimeout```. The second argument for ```setTimeout``` is the length of the timeout in milliseconds:
+
+```
+setTimeout(() => {
+  setIsRefreshing(false);
+}, 1000);
+```
+
+🔗 [Expo 899a3cefa738543f6e7d2782bb6833539f27166c](https://github.com/kadikraman/AwesomeProjectExpo/commit/899a3cefa738543f6e7d2782bb6833539f27166c)
+
+🔗 [RN 14e0ae8a3dc7c2922fb0a4ce984e2e9d74ed9b77](https://github.com/kadikraman/AwesomeProjectRN/commit/14e0ae8a3dc7c2922fb0a4ce984e2e9d74ed9b77)
+
+👩‍💻 [Live Coding b603cac8a50751c2e7db6a5df331fa69567b328d](https://github.com/FrontendMasters/AwesomeProjectExpo/commit/b603cac8a50751c2e7db6a5df331fa69567b328d)
+
 ##### *[Forms →](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/6-forms/README.md#forms)*
