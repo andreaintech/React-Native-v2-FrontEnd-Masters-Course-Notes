@@ -39,6 +39,67 @@ setValue(1);
 
 #### ```useCallback```
 
+[useCallback](https://reactjs.org/docs/hooks-reference.html#usecallback) is for any kind of action you may want to perform: be it a state update, a network request or launching a modal.
+
+In our counter example before, we pass in the ```onPress``` function for incrementing and decrementing the counter directly. It's not so much of a problem, but it might get hard to read if the function was longer. So ideally we'd like to extract the ```handleIncrement``` and ```handleDecrement``` functions from the render method, like so:
+
+```
+const handleIncrement = () => setCount(current => current + 1);
+const handleDecrement = () => setCount(current => current - 1);
+
+<TouchableOpacity onPress={handleIncrement}>
+
+<TouchableOpacity onPress={handleDecrement}>
+```
+
+This works, but the problem is that the constants for ```handleIncrement``` and ```handleDecrement``` get re-initialized every time the component re-renders, and because React is built to be dynamic, this happens *a lot*. ```useCallback``` to the rescue!
+
+```
+import React, { useCallback } from 'react';
+
+const handleIncrement = useCallback(() => {
+  setCount(current => current + 1);
+}, []);
+```
+
+This may be a bit hard to read at first, but you'll soon get used to it. ```useCallback``` is a function that takes two arguments: the function we want to return (notice this is *exactly* the function we had before), and an array of values that should trigger the function to be re-initialized. In our case, this array is empty, because the ```useState``` function is the same, and we're not using any other outside variables inside the ```useCallback```. As a rule of thumb, any variables used inside the ```useCallback``` should be added to the array.
+
+🔍 [useCallback example](https://snack.expo.dev/@kadikraman/usecallback-example)
+
+#### ```useEffect```
+
+[useEffect](https://reactjs.org/docs/hooks-effect.html) is tied to the component render cycle. If you're already familiar with React Components, you can think of this as a combined ```componentDidMount``` and ```componentDidUpdate```.
+
+There are two main types of use-cases for ```useEffect```: ones that require cleanup and ones that don't.
+
+```
+useEffect(() => {
+  ChatAPI.subscribeToFriendStatus(props.friend.id, status => setIsOnline(status.isOnline);
+
+  return () => {
+    ChatAPI.unsubscribeFromFriendStatus(props.friend.id, handleStatusChange);
+  };
+}, []);
+```
+
+This bit of example code shows how you might subscribe to a chat API. Notice that the function body does the subscription, and the return value is a function that removes the subscription. Any function you return from a ```useEffect``` will be run when the component is unmounted. This is important to keep in mind to prevent memory leaks.
+
+The other use-case is similar to the above, but for actions that do not require cleanup.
+
+```
+useEffect(() => {
+  someActionWeNeedToDoOnce();
+}, []);
+```
+
+The above code will only be executed once when the component is rendered and never again.
+
+Note that the second argument to ```useEffect``` is an array of items that should trigger the effect to run again (the same as the second argument for ```useCallback```). The second argument is optional, but if it is not provided it will run on every component render. If you want to run the effect only on component load (equivalent to ```componentDidMount``` in a React class component), provide an empty array ```[]```. You should be especially careful about making sure you pass in the empty array when making network requests that trigger a component re-render otherwise you'll end up in an infinite loop!
+
+🔍 [useEffect example[(https://snack.expo.dev/@kadikraman/useeffect-example)
+
+☝️ you should run this on your phone or the in-browser emulator or you'll get CORS errors. In this example we do a network request to fetch some random cat facts when the component is rendered.
+
 ### Network Requests Exercise 📝
 
 ### Network Requests Exercise Solution 👀
