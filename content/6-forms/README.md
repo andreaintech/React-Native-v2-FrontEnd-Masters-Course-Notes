@@ -181,6 +181,12 @@ import AddNewPaletteModal from './screens/AddNewPaletteModal';
 
 ### Form exercise 📝
 
+For the final exercise, let's add a form that lets the user submit their own color scheme, and add it to the top of the list.
+
+Note: this exercise is meant to be challenging and provide you with scope to add your own features. If you decide to have a go at this on your own, don't expect to finish this in 15 minutes, or even an hour.
+
+Here's an example of the finished product:
+
 ### Form exercise solution 👀
 
 ##### *[Conclusion →](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/7-conclusion/README.md#conclusion)*
