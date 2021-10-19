@@ -102,6 +102,10 @@ Note that the second argument to ```useEffect``` is an array of items that shoul
 
 ### Network Requests Exercise 📝
 
+Update your application to fetch the color palettes from the following url: https://color-palette-api.kadikraman.now.sh/palettes
+
+Hint: you should use ```useEffect```, ```useCallback``` and ```useState``` for this!
+
 ### Network Requests Exercise Solution 👀
 
 ### Pull to refresh
