@@ -7,7 +7,7 @@ Hooks in React Native work exactly the same as in plain React, so if you already
 
 For the majority of use-cases, the only hooks you will need are ```useState```, ```useCallback``` and ```useEffect```. Let's look into these in detail.
 
-### ```useState```
+#### ```useState```
 
 [useState](https://reactjs.org/docs/hooks-state.html) is for saving and updating state inside the component.
 
@@ -37,7 +37,7 @@ setValue(1);
 
 🔍 [useState example](https://snack.expo.dev/@kadikraman/usestate-example)
 
-### ```useCallback```
+#### ```useCallback```
 
 ### Network Requests Exercise 📝
 
