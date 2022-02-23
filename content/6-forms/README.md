@@ -360,16 +360,6 @@ const COLORS = [
 ];
 ```
 
-```
-<code>
-  { colorName: 'Wheat', hexCode: '#F5DEB3' },
-  { colorName: 'White', hexCode: '#FFFFFF' },
-  { colorName: 'WhiteSmoke', hexCode: '#F5F5F5' },
-  { colorName: 'Yellow', hexCode: '#FFFF00' },
-  { colorName: 'YellowGreen', hexCode: '#9ACD' },
-</code>
-```
-
 ### Form exercise solution 👀
 
 ##### *[Conclusion →](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/7-conclusion/README.md#conclusion)*
