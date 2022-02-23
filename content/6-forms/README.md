@@ -189,7 +189,7 @@ Here's an example of the finished product:
 
 ![forms-exercise](https://user-images.githubusercontent.com/20091777/155254872-27e138bd-ddff-4b47-aa6d-8e89db3dc1ae.gif)
 
-[Requirements]()
+#### Requirements
 
 - Pressing on "add color scheme" opens a modal
 - The user can enter the name for the color scheme
@@ -198,13 +198,13 @@ Here's an example of the finished product:
 - If the user hits submit without entering the number of colors, they will get an error message
 - If the user has entered a name for the color scheme and picked at least 3 colors, the modal will close and the color scheme they created gets added to the top of the list
 
-[Hints]()
+#### Hints
 
 - Don't use all the colors all at once. Start with 3 to get the toggle buttons to work. Then figure out how to add more
 - You can use the native Alert modal to notify the user of any errors in the form
 - navigation.navigate() works like navigation.goBack() if the page you target is already in the stack. You can use it to pass parameters back to the parent screen
 
-[Data]()
+#### Data
 
 These are all the named HTML5 colors:
 
