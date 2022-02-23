@@ -360,6 +360,7 @@ const COLORS = [
 ];
 ```
 
+```
 <code>
   { colorName: 'Wheat', hexCode: '#F5DEB3' },
   { colorName: 'White', hexCode: '#FFFFFF' },
@@ -367,6 +368,7 @@ const COLORS = [
   { colorName: 'Yellow', hexCode: '#FFFF00' },
   { colorName: 'YellowGreen', hexCode: '#9ACD' },
 </code>
+```
 
 ### Form exercise solution 👀
 
