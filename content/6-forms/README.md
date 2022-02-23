@@ -187,9 +187,7 @@ Note: this exercise is meant to be challenging and provide you with scope to add
 
 Here's an example of the finished product:
 
-![image](https://user-images.githubusercontent.com/20091777/155254432-df41bfe8-23f6-4e61-b0a8-c492d667adb7.png)
-
-![ Alt text](name-of-gif-file. gif) / ! [](name-of-gif-file. gif)
+![Alt Text](https://kadikraman.github.io/react-native-v2/6794ed6012089fa8f378be2542cde666/forms-exercise.gif)
 
 
 ### Form exercise solution 👀
