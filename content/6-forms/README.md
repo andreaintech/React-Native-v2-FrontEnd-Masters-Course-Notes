@@ -187,7 +187,7 @@ Note: this exercise is meant to be challenging and provide you with scope to add
 
 Here's an example of the finished product:
 
-![Alt Text](https://kadikraman.github.io/react-native-v2/6794ed6012089fa8f378be2542cde666/forms-exercise.gif)
+![forms-exercise](https://user-images.githubusercontent.com/20091777/155254872-27e138bd-ddff-4b47-aa6d-8e89db3dc1ae.gif)
 
 
 ### Form exercise solution 👀
