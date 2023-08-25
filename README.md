@@ -68,3 +68,7 @@ For social media, you can find her on [Twitter](https://twitter.com/kadikraman),
 - [[Expo] Ejecting from Expo](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/8-extra-credit/README.md#expo-ejecting-from-expo)
 - [Platform Specific Code](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/8-extra-credit/README.md#platform-specific-code)
 - [Security](https://github.com/adasilvapdev/React-Native-v2-FrontEnd-Masters-Course-Notes/blob/main/content/8-extra-credit/README.md#security)
+
+
+
+Updated and maintained with ❤️ by [@andreaintech](https://andreaintech.github.io/web/)
